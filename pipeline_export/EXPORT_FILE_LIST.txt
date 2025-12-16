@@ -1,0 +1,24 @@
+# Files to Export for Full Pipeline
+
+## Core Python Files (Required)
+run_full_pipeline.py
+posts.py
+identify_correct_links.py
+extract_images_from_links.py
+extract_text_from_images.py
+subreddits.py
+users.py
+supabase_client.py
+
+## Configuration Files (Required)
+requirements.txt
+.env
+
+## Documentation (Optional but Recommended)
+README.md
+PIPELINE_EXPORT_FILES.md
+
+## Optional State Files (for incremental processing)
+pipeline_results/pipeline_results.json
+pagination_state.json
+
